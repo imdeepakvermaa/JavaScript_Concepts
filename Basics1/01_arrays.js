@@ -9,14 +9,14 @@
 // console.log(fruits.length);   //length
 // console.log(fruits);
 
-// const array1 = ['a', 'b', 'c'];
+const array1 = ['a', 'b', 'c'];
 // const array2 = ['d', 'e', 'f'];
 // const array3 = array1.concat(array2);    //concatenate
 // console.log(array3);
 
-// console.log(...array1,...array2);
+console.log(...array1,...array2);
 
-const array1 = ["a", "b", "c", "d", "e"];
+// const array1 = ["a", "b", "c", "d", "e"];
 // console.log(array1.copyWithin(0, 3, 4));
 // Copy to index 1 all elements from index 3 to the end
 // console.log(array1.copyWithin(1, 3));
@@ -68,4 +68,4 @@ let score1 = 100
 let score2 = 200
 let score3 = 300
 
-console.log(Array.of(score1, score2, score3));
+// console.log(Array.of(score1, score2, score3));
