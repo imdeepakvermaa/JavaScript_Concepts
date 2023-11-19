@@ -20,6 +20,8 @@ function addone(num){
     return num + 1
 }
 
+addone()
+
 
 
 addTwo(5)
