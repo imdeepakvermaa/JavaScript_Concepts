@@ -12,3 +12,10 @@ const user = {
 // user.welcomeMessage()
 // user.username = "sam"
 // user.welcomeMessage()
+
+// console.log(this);
+
+// function chai(){
+//     let username = "hitesh"
+//     console.log(this.username);
+// }
