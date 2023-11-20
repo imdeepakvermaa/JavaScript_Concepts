@@ -1,6 +1,6 @@
 // if
-const isUserloggedIn = true
-const temperature = 41
+// const isUserloggedIn = true
+// const temperature = 41
 
 
 // if ( temperature === 40 ){
@@ -11,4 +11,10 @@ const temperature = 41
 
 // console.log("Execute");
 // <, >, <=, >=, ==, !=, ===, !==
+let score = 450;
+if (score > 100) {
+    let power = "fly"
+    console.log(`User power: ${power}`);
+}
 
+// console.log(`User power: ${power}`);
