@@ -15,4 +15,4 @@
 
 ( (name) => {
     console.log(`DB CONNECTED TWO ${name}`);
-} )('Deepak Verma')
+} )('Deepak Verma');
