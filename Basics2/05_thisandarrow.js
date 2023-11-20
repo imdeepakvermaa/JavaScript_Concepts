@@ -27,3 +27,8 @@ const user = {
 //     let username = "hitesh"
 //     console.log(this.username);
 // }
+
+const chai =  () => {
+    let username = "hitesh"
+    console.log(this);
+}
