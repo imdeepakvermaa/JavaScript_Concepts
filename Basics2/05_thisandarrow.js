@@ -32,3 +32,9 @@ const chai =  () => {
     let username = "hitesh"
     console.log(this);
 }
+
+// chai()
+
+// const addTwo = (num1, num2) => {
+//     return num1 + num2
+// }
