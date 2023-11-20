@@ -9,3 +9,6 @@ const temperature = 41
 //     console.log("temperature is greater than 50");
 // }
 
+// console.log("Execute");
+// <, >, <=, >=, ==, !=, ===, !==
+
