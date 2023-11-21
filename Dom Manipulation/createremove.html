@@ -16,7 +16,7 @@
   <script>
     const page = document.querySelector("body");
     const heading = document.createElement("h1");
-    heading.textContent = "Hey what is going on ?";
+    heading.textContent = "Hey";
     heading.style.background = "green";
     heading.style.color = "orange";
     const text = document.createTextNode(
@@ -27,5 +27,11 @@
     linkPara.appendChild(text);
 
     page.appendChild(heading);
+
+    heading.setAttribute("p" , "h1");
+
+    // page.removeChild(text)
+
+
   </script>
 </html>
