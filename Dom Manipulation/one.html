@@ -10,17 +10,46 @@
 
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, vel!</p>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, vel!</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, vel!</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, vel!</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, vel!</p>
+    <p class="white-text">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, vel!
+    </p>
+    <p id="orange-text">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, vel!
+    </p>
+    <p class="white-text">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, vel!
+    </p>
+    <p id="orange-text">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, vel!
+    </p>
   </body>
   <script>
-    const heading = document.querySelector(".heading");
-    // console.log(heading);
-    heading.textContent = "Random Stuff";
+    // const heading = document.querySelector(".heading");
+    // // console.log(heading);
+    // heading.textContent = "Random Stuff";
+
+    // const para = document.querySelectorAll("p")
+    // para.forEach( function (para) {
+
+    //     para.style.color = "red"
+
+    // })
+
+    // const orangetext = document.getElementById("orange-text")
+
+    // console.log(orangetext)
+
+    // orangetext.style.color = "orange"
+
+    const orangetext = document.querySelectorAll("#orange-text");
+    orangetext.forEach(function (p) {
+      p.style.color = "orange";
+    });
+
+    console.log(orangetext)
 
 
-    const para = document.querySelector("p")
+    // orangetext.style.color = "orange";
+
   </script>
 </html>
