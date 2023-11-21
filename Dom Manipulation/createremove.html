@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DOM Selector</title>
-</head>
-<body>
-    
-</body>
+    <style>
+      .body {
+        background-color: black;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body class="body"></body>
+
+  <script>
+    const page = document.querySelector("body");
+    const heading = document.createElement("h1");
+    heading.textContent = "Hey what is going on ?";
+    heading.style.background = "green";
+    heading.style.color = "orange";
+    const text = document.createTextNode(
+      " — the premier source for web development knowledge."
+    );
+
+    const linkPara = document.querySelector("body");
+    linkPara.appendChild(text);
+
+    page.appendChild(heading);
+  </script>
 </html>
