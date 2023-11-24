@@ -7,7 +7,12 @@
   </head>
   <body>
     <h1>
-      <button>Change color</button>
+      <!-- <button>Change color</button> -->
+
+
+      <button onclick="alert('Hello , this is old fashioned event handler !')">
+        Press Me
+      </button>
     </h1>
   </body>
   <script>
@@ -29,9 +34,14 @@
     // btn.addEventListener("click",bgcolor);
     // btn.onclick = bgcolor;
     // btn.removeEventListener("click", bgcolor);
-    btn.onclick = () => {
-      const rndCol = `rgb(${random(255)}, ${random(255)}, ${random(255)})`;
-      document.body.style.backgroundColor = rndCol;
-    };
+    // btn.onclick = () => {
+    //   const rndCol = `rgb(${random(255)}, ${random(255)}, ${random(255)})`;
+    //   document.body.style.backgroundColor = rndCol;
+    // };
+
+
+
+    // old way to write event handlers 
+    
   </script>
 </html>
