@@ -1,33 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Events</title>
-</head>
-<body >
-
+  </head>
+  <body>
     <h1>
-        <button>Change color</button>
+      <button>Change color</button>
     </h1>
-
-
-    
-</body>
-<script>
-
-    const btn  = document.querySelector("button")
+  </body>
+  <script>
+    const btn = document.querySelector("button");
 
     function random(number) {
-        return Math.floor(Math.random() * (number + 1));
+      return Math.floor(Math.random() * (number + 1));
     }
 
-    btn.addEventListener("click", () => {
-        const randomcolor = `rgb(${random(255)},${random(255)},${random(255)})`;
-        document.body.style.backgroundColor = randomcolor;
+    // btn.addEventListener("click", () => {
+    //   const randomcolor = `rgb(${random(255)},${random(255)},${random(255)})`;
+    //   document.body.style.backgroundColor = randomcolor;
+    // });
 
-    })
-
-
-</script>
+    // function bgcolor() {
+    //   const color = `rgb(${random(255)},${random(255)},${random(255)})`;
+    //   document.body.style.backgroundColor = color;
+    // }
+    // btn.addEventListener("click",bgcolor);
+    // btn.onclick = bgcolor;
+    // btn.removeEventListener("click", bgcolor);
+    btn.onclick = () => {
+      const rndCol = `rgb(${random(255)}, ${random(255)}, ${random(255)})`;
+      document.body.style.backgroundColor = rndCol;
+    };
+  </script>
 </html>
