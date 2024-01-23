@@ -4,7 +4,7 @@ var location = "Faridabad";
 college = "niet";
 
 age = 21;
-location = "Bengluru";
+location = "Bengaluru";
 college = "khatam";
 
 console.table([age , location , name , college]);

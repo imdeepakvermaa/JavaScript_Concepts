@@ -6,11 +6,11 @@
 
 let age = 21 ; // number
 let name = "Deepak"; // strings
-let paasedOut  = false ; //boolean
+let passedOut  = false ; //boolean
 let location; //undefined
 
 // null - standalone value -> object 
 //symbol - unique
 
 
-console.table(typeof null)
+console.log(typeof location);
