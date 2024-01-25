@@ -6,12 +6,22 @@
 // getDetails();
 
 
-function getDetails(name,college){
-    var name = "Deepak Verma";
-    var college = "NiET";
+// function getDetails(name,college){
+//     var name = "Deepak Verma";
+//     var college = "NIET";
+//     console.table([name, college]);
 
-    console.table([name, college]);
+// };
 
-};
+// console.log(getDetails);
 
-console.log(getDetails);
+console.log(details);
+
+// var details = function getDetails() {
+//     console.log("Details Uploaded...")
+// }
+
+var details = () => {
+    console.log("Details Uploaded...")
+
+}
